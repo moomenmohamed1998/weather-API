@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="wid, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
+      <div class="container">
+        <div class="d-flex">
+          <div><img src="imags/logo.png" alt="logo" /></div>
+          <div class="d-flex col">
+            <a class="navbar-brand p-2" href="#"> Weather</a>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0  m-auto ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="bg-img">
+        <div class="container">
+          <div class="input-group mb-3 pt-5">
+            <input
+              type="text"
+              class="form-control position-relative bg-input rounded-4 inPutFind"
+              placeholder="find your locion... "
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+              fdprocessedid="c81q0d"
+            />
+            <button
+              class="btn h-25 btn-outline-secondary bg-info rounded-5 pt-3 pb-3 ps-5 pe-5 m-1 btnSearsh"
+              type="submit"
+              id="button-addon2"
+              fdprocessedid="5vz3jf"
+            >
+              Find
+            </button>
+          </div>
+        </div>
+        <div class="pt-5">
+          <div class="container">
+            <div class="row" id="rowData"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-2 navbar-dark navbar-bg h-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <div>
+              <div class="input-group mb-3 pt-5">
+                <input
+                  type="text"
+                  class="form-control position-relative bg-input rounded-4"
+                  placeholder="Enter your email to subscribe... "
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                  fdprocessedid="c81q0d"
+                />
+                <button
+                  class="btn h-25 btn-outline-secondary bg-info rounded-5 pt-3 pb-3 ps-5 pe-5 m-1"
+                  type="button"
+                  id="button-addon1"
+                  fdprocessedid="5vz3jf"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="pt-5">
+              <div class="icons-a">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-5">
+          <p class="text-center footer-p">
+            Copyright 2014 Company name. Designed by Themezy. All rights
+            reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
